@@ -60,9 +60,9 @@ export default function DashboardPage() {
           <FadeIn>
             <div className="mb-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
               <div>
-                <Typography variant="h2" weight="bold" className="mb-2">
+                  <Typography variant="h2" weight="bold" className="mb-2">
                   Welcome back, {profile?.name || "User"}!
-                </Typography>
+                  </Typography>
                 <Typography variant="body" color="secondary">
                   Here's your financial overview for today
                 </Typography>
@@ -76,7 +76,7 @@ export default function DashboardPage() {
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Button variant="primary" size="sm">
                     Generate Report
-                  </Button>
+                    </Button>
                 </motion.div>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function DashboardPage() {
                       <Button variant="outline" size="sm">Add Stock</Button>
                     </div>
                     <Typography variant="body" color="secondary" className="mb-2">Keep an eye on your favorite stocks and market movers.</Typography>
-                    <StockWatchlist />
+                  <StockWatchlist />
                   </div>
                   <div>
                     <div className="mb-2 flex items-center justify-between">
